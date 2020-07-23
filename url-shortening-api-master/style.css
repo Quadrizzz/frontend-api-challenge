@@ -137,6 +137,14 @@ header div button{
     border-radius: 10px;
 }
 
+#active-state-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .active-states{
     background:transparent;
     display: none;
@@ -149,10 +157,10 @@ header div button{
 }
 
 .active-states div{
-    width: 55%;
+    width: 60%;
     background: white;
     border-radius: 5px;
-    margin-left: 302px;
+    margin-left: 300px;
     color: hsl(0, 3%, 62%);
     margin-top: 10px;
     display: flex;
